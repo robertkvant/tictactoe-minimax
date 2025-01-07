@@ -34,7 +34,7 @@ public class TicTacToeController {
         BoardVerifier verifier = new TicTacToeBoardVerifier();
         boolean complete = verifier.isComplete(board.getBoard());
         Map<String,Boolean> w = new HashMap<>();
-        w.put("iscomplete",complete);
+        w.put("isComplete",complete);
         return w;
     }
 

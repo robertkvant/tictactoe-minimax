@@ -1,8 +1,14 @@
 {
+  "name": "my-project",
+  "source": "src/index.html",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build"
+  },
   "devDependencies": {
     "parcel": "^2.13.3",
+    "process": "^0.11.10",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0",
-    "proxy": "http://localhost:8080"
+    "react-dom": "^19.0.0"
   }
 }

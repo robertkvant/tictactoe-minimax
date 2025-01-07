@@ -1,0 +1,20 @@
+.TicTacToeBoard {
+    width: 450px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 2;
+}
+
+.cell {
+    background-color:linen;
+    text-align: center;
+    cursor: pointer;
+    width: 150px;
+    height: 150px;
+}
+
+.cell > p {
+    top: 50%;
+    left: 50%;
+    font-size: 50px;
+}

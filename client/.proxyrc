@@ -1,0 +1,20 @@
+{
+  "/tictactoe/winner": {
+    "target": "http://localhost:8080/tictactoe/winner",
+    "pathRewrite": {
+        "^/tictactoe/winner": ""
+      }
+  },
+  "/tictactoe/iscomplete": {
+    "target": "http://localhost:8080/tictactoe/iscomplete",
+    "pathRewrite": {
+        "^/tictactoe/iscomplete": ""
+      }
+  },
+  "/tictactoe/bestmove": {
+    "target": "http://localhost:8080/tictactoe/bestmove",
+    "pathRewrite": {
+        "^/tictactoe/bestmove": ""
+      }
+  }
+}
