@@ -3,7 +3,8 @@
   "source": "src/index.html",
   "scripts": {
     "start": "parcel",
-    "build": "parcel build"
+    "build": "parcel build && cp ./dist/* ../tictactoe/src/main/resources/static/",
+    "clean": "rm -rf ./dist && rm -rf ../tictactoe/src/main/resources/static/*"
   },
   "devDependencies": {
     "parcel": "^2.13.3",
