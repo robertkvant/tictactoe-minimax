@@ -80,8 +80,7 @@ export function App() {
             ))
         }
       </div>
-      <p>{ winner == 1 ? "Winner is COMPUTER" : 
-            winner == 2 ? "Winner is PLAYER" : 
+      <p>{ winner == 1 ? "Winner is COMPUTER" : winner == 2 ? "Winner is PLAYER" : 
             isComplete ? "It's a draw" : ""}</p>
       </>
     );
